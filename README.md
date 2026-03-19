@@ -1,5 +1,5 @@
 This project is a simple **one-page responsive landing page** built using **HTML and CSS only**.
-It was created as part of a web development assignment focusing on layout, spacing, and responsive design.
+It was created as part of a:“Hero” section for a product with a clear Call to Action (CTA) assignment focusing on layout, spacing, and responsive design.
 
 ## 🎯 Project Goal
 
@@ -24,19 +24,17 @@ The goal of this project was to design a **Hero section** with a clear **Call to
 project-folder
 │
 ├── index.html
-└── styles.css
 ```
 
 ## 🚀 Live Demo
 
 GitHub Pages:
-(Add your GitHub Pages link here)
+[(Add your GitHub Pages link here)](https://hansdev365.github.io/Hero_section/)
 
 ## 📦 Repository
 
 GitHub Repo:
-(Add your GitHub repository link here)
-
+(https://github.com/HansDev365/Hero_section.git)
 ## 📸 Preview
 
 The page contains:
@@ -48,4 +46,4 @@ The page contains:
 
 ---
 
-Created as part of a **web design and development assignment**.
+Created as part of a **“Hero” section for a product with a clear Call to Action (CTA)**.
