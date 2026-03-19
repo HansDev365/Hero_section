@@ -29,7 +29,7 @@ project-folder
 ## 🚀 Live Demo
 
 GitHub Pages:
-[(Add your GitHub Pages link here)](https://hansdev365.github.io/Hero_section/)
+[GitHub Pages link)](https://hansdev365.github.io/Hero_section/)
 
 ## 📦 Repository
 
