@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic meta tags for character encoding and mobile responsiveness -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- External Google Fonts: "Satisfy" for headings and "Playfair Display" for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+  <title>GlowFest 2026</title>
+
+  <style>
+    /* RESET STYLES: Removes default margins/padding and ensures consistent sizing */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* FONT UTILITIES: Classes for applying specific font families */
+    .satisfy-regular {
+      font-family: "Satisfy", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .playfair-display {
+      font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    /* BASE BODY STYLES */
+    body {
+      font-family: "Satisfy", cursive;
+      color: white;
+    }
+
+    /* HERO SECTION: Main full-page container with a dynamic radial gradient background */
+    .hero {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      /* Decorative background using multiple gradients for a "glow" effect */
+      background:
+        radial-gradient(circle at 20% 30%, rgba(255, 183, 3, 0.2), transparent 40%),
+        radial-gradient(circle at 80% 70%, rgba(255, 0, 150, 0.15), transparent 40%),
+        linear-gradient(135deg, #0f172a, #1e293b);
+    }
+
+    /* CONTENT BOX: The frosted-glass (glassmorphism) container for the hero text */
+    .hero-content {
+      max-width: 40rem;
+      padding: 2.5rem;
+      border-radius: 1.5rem;
+
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(6px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+
+      /* Trigger the floating animation */
+      animation: float 4s ease-in-out infinite;
+    }
+
+    /* TYPOGRAPHY STYLES */
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-family: "Playfair Display", serif;
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+      color: #d1d5db;
+    }
+
+    /* CTA BUTTON: Call to action button with transition effects */
+    .cta-button {
+      display: inline-block;
+      padding: 1rem 2rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: bold;
+
+      color: black;
+      background: #ffb703;
+
+      transition: all 0.3s ease;
+    }
+
+    /* HOVER EFFECT: Glow and lift effect for the button */
+    .cta-button:hover {
+      background: #ffd166;
+      transform: translateY(-4px);
+
+      box-shadow:
+        0 0 10px #ffb703,
+        0 0 20px #ffb703,
+        0 0 40px #ffb703;
+    }
+
+    /* ANIMATION: A subtle vertical floating motion */
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    /* MOBILE RESPONSIVENESS: Adjusts layout and font sizes for smaller screens */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .hero-content {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO SECTION START -->
+  <section class="hero">
+    <div class="hero-content">
+      <!-- Main Event Title -->
+      <h1>Volda Pyrotechnic Art Festival 2026</h1>
+      
+      <!-- Event Description -->
+      <p>
+        Step into a world of lights, music, and energy.
+        Experience the most vibrant festival of the year.
+      </p>
+      
+      <!-- Call to Action Link -->
+      <a href="#" class="cta-button">Reserve Your Ticket</a>
+    </div>
+  </section>
+  <!-- HERO SECTION END -->
+
+</body>
+
+</html>
